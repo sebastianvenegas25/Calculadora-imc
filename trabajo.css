@@ -1,102 +1,101 @@
 
-.imagen1{
-  position: absolute;
-  margin-top: 30%;
-  width: 80%;
-  height: 60%;
+.imagen1 {
+  position: absolute; /* Posición absoluta*/
+  margin-top: 30%; /* Margen superior del 30%*/
+  width: 80%; /* Ancho del 80% */
+  height: 60%; /* Altura del 60%  */
+}
+.menu1 {
+  font-family: Arial, Helvetica, sans-serif; /* Familia de fuentes y estilo de texto */
+  background-color: white; /* Fondo blanco */
+}
+.menu {
+  list-style: none; /* Quita los marcadores de lista */
+  padding: 0; /* Sin relleno */
+  background: #092327; /* Fondo con color */
+  width: 90%; /* Ancho del 90% del elemento padre */
+  max-width: 1000px; /* Ancho máximo de 1000 píxeles */
+  margin: auto; /* Centra horizontalmente en el elemento padre */
+}
+.menu li a {
+  text-decoration: none; /* Quita la decoración de texto subrayado */
+  color: white; /* Color de texto blanco */
+  padding: 20px; /* Espacio interno de 20 píxeles */
+  display: block; /* Mostrar como bloque para ocupar todo el ancho del contenedor */
+}
+.menu li {
+  display: inline-block; /* Mostrar en línea con diseño en bloque */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+.menu li a:hover {
+  background: #ef8354; /* Cambia el fondo a un tono de naranja  */
+}
+.subtitulo3 {
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: 'Times New Roman', Times, serif; /* fuentes */
+  background: orange; /* Fondo de color naranja */
+}
+.INICIO {
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: 'Times New Roman', Times, serif; /* fuentes */
+  background: orange; /* Fondo de color naranja */
+}
+.contactos {
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: 'Times New Roman', Times, serif; /*fuentes */
+  background: orange; /* Fondo de color naranja */
+}
+.titulo1 {
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: 'Times New Roman', Times, serif; /* Familia de fuentes */
+}
+.texto {
+  margin-left: 20%; /* Margen izquierdo del 20%*/
+  margin-right: 20%; /* Margen derecho del 20% */
+}
+.TITULOPAG {
+  text-align: right; /* Alinea el texto a la derecha */
+  color: white; /* Color de texto blanco */
+}
+.imc {
+  text-align: right; /* Alinea el texto a la derecha */
+}
+.imagen3 {
+  position: absolute; /* Posición absoluta */
+  margin-top: 10%; /* Margen superior del 10%  */
+  width: 20%; /* Ancho del 20%  */
+  height: 20%; /* Altura del 20%*/
+  left: 30%; /* Desplazamiento desde el borde izquierdo */
+}
+.boton1 {
+  margin-top: 10%; /* Margen superior del 10% */
+}
+.imagen4 {
+  position: absolute; /* Posición absoluta */
+  margin-top: 10%; /* Margen superior del 10%  */
+  width: 20%; /* Ancho del 20% */
+  height: 20%; /* Altura del 20%*/
+  right: 30%; /* Desplazamiento desde el borde derecho*/
 }
 
-.menu1{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color:white;
+.espacio2 {
+  margin-top: 10%; /* Margen superior del 10% */
 }
-
-.menu{
-  list-style: none;
-  padding: 0%;
-  background: #092327;
-  width: 90%;
-  max-width: 1000px;
-  margin:auto ;
+.boton2 {
+  left: 20%; /* Desplazamiento desde el borde izquierdo*/
 }
-.menu li a{
-  text-decoration: none;
-  color: white;
-  padding: 20px;
-  display: block;
-}
-.menu li{
- display:inline-block ;
- text-align:center ;
-}
-.menu li a:hover{
-  background:#ef8354 ;
+.lola {
+  width: 25%; /* Ancho del 25%*/
+  height: 10%; /* Altura del 10% */
+  text-align: center; /* Centra el texto horizontalmente */
+  border-radius: 30px; /* Bordes redondeados con radio de 30 píxeles */
+  margin-top: 10%; /* Margen superior del 10%  */
+  margin-left: 35%; /* Margen izquierdo del 35% */
+  color: white; /* Color de texto blanco */
+  background:orange; 
 
 }
-
-.subtitulo3{
- text-align: center;
- font-family:'Times New Roman', Times, serif;
- background: orange;
-}
-
-.INICIO{
-  text-align: center;
-  font-family:'Times New Roman', Times, serif;
-  background: orange;
-}
-.contactos{
-  text-align: center;
-  font-family:'Times New Roman', Times, serif;
-  background: orange;
-}
-.titulo1{
-  text-align: center;
-  font-family:'Times New Roman', Times, serif;
-}
-.texto{
-  margin-left: 20%;
-  margin-right: 20%;
-}
-.TITULOPAG{
-  text-align: right;
-  color: white;
-}
-.imc{
-  text-align: right;
-}
-.imagen3{
-  position: absolute;
-  margin-top: 10%;
-  width: 20%;
-  height: 20%;
-  left: 30%;
-}
-.boton1{
-  margin-top: 10%;
-}
-.imagen4{
-  position: absolute;
-  margin-top: 10%;
-  width: 20%;
-  height: 20%;
-  right: 30%;
-}
-.espacio2{
-  margin-top: 10%;
-}
-.boton2{
-  left: 20%;
-}
-.lola{
-  width: 25%;
-  height: 10%;
-  text-align: center;
-  border-radius: 30px;
-  margin-top: 10%;
-  margin-left: 35%;
-  color: white;
-}
-.palo{
-  background-color: purple;
+.palo {
+  background-color:yellow; /* Fondo de color morado */
+  
 }
